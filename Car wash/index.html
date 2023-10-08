@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash Website</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap">
+    <script src="reviews.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#" style="color: #fff;">Auto Wash</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" style="color: #fff;">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color: #fff;">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <img src="images//soapy.webp" alt="Car Wash" class="hero-image">
+      <div class="container">
+          <h1>Welcome to Our Car Wash</h1>
+          <p>We make your car shine!</p>
+          <a href="#services" class="btn btn-primary rounded-pill" style="color: #12509d;">Learn More</a>
+      </div>
+    </header>
+
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="statistic-card">
+                      <h3>5+</h3>
+                      <h2>Locations</h2>
+                      <p>Yakima, Selah, Ellensburg, and Wenatchee</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="statistic-card">
+                      <h3>10</h3>
+                      <h2>Automatic Washes</h2>
+                      <p>Offering soft touch and touchless washes</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="statistic-card">
+                      <h3>24</h3>
+                      <h2>Service Bays</h2>
+                      <p>Wash your motorcycles, boats, ATVs, RVs, and more</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- New Section -->
+    <section id="about" class="about" style="background-image: url('images/580bc6_d24c37d7c7de464a83a5f5031511dfd0~mv2.jpg');">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <!-- Empty Column -->
+              </div>
+              <div class="col-md-6">
+                  <!-- About Text -->
+                  <div class="about-text">
+                      <h2>About Our Auto Wash</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna nec libero congue auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+                      <a href="#services" class="button btn btn-primary rounded-pill">Learn More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-6">
+                  <div class="service-item">
+                      <h3>BASIC</h3>
+                      <p>Turtle Wax Premium Soap, High-Pressure Rinse, Spot Free Rinse, Blow Dry</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="service-item">
+                      <h3>GRAND</h3>
+                      <p>Undercarriage Wash, Turtle Wax Premium Soap, High-Pressure Rinse, Wheel Jets, Spot Free Rinse, Blow Dry</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="service-item">
+                      <h3>ULTIMATE</h3>
+                      <p>Undercarriage Wash, Turtle Wax Premium Soap, Turtle Wax FIRE Wax, Turtle Wax ICE Polish, High-Pressure Rinse, Wheel Jets, Spot Free Rinse, Blow Dry.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+    <!-- Customer Reviews Section -->
+    <section id="customer-reviews" class="customer-reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="review-container">
+                <div class="review">
+                    <p>"Great car wash service! My car has never looked so clean."</p>
+                    <p class="author">- John Doe</p>
+                </div>
+                <div class="review">
+                    <p>"Fast and efficient car wash. I highly recommend it!"</p>
+                    <p class="author">- Jane Smith</p>
+                </div>
+                <div class="review">
+                    <p>"Excellent customer service and attention to detail."</p>
+                    <p class="author">- David Johnson</p>
+                </div>
+            </div>
+            <div class="navigation">
+                <span class="arrow prev">&lt;</span>
+                <span class="arrow next">&gt;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Contact Information -->
+                    <h4>Contact Information</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main St, City, State</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@carwash.com">info@carwash.com</a></p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                </div>
+                <div class="col-md-4">
+                    <!-- Social Media Links -->
+                    <h4>Follow Us</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <!-- Opening Hours -->
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p>Saturday - Sunday: 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
