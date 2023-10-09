@@ -145,37 +145,79 @@ html, body {
     }
 }
 
-/* Services Section */
-.services
-{
-    background-color: #1b1d1d;
-    padding: 100px;
+/* Car wash packages section styles */
+.packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.services h2 {
-    font-size: 32px;
+/* Style the package cards */
+.package-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 30px; /* Increase the padding to make the cards longer */
+    margin: 20px;
+    width: calc(33.33% - 40px);
     text-align: center;
-    margin-bottom: 40px;
+    height: 350px; /* Increase the height to make the cards longer */
 }
-
-.services p {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 100px;
-}
-
-.service-item {
-    background-color:#222426; 
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.service-item h3 {
-    color: #007bff;
-    font-weight: bold;
-    font-size: 24px;
+/* Style the package name */
+.package-name {
+    font-size: 44px;
     margin-bottom: 10px;
+    color: #007BFF; /* Use the same color as the price */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Inherit the font from the parent element */
+}
+/* Style the package price */
+.package-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Style the package includes */
+.package-includes {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.package-price-monthly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the vertical hr line */
+.package-divider {
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+/* Center the prices and monthly costs */
+.package-price,
+.package-monthly-cost {
+    text-align: center;
+}
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .package-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .package-card {
+        width: 100%;
+    }
 }
 
 /* Customer Reviews section */
