@@ -4,6 +4,12 @@ Welcome to the Car Wash Website repository! This website is designed to showcase
 
 **Note: This is a front-end design project. You can customize and enhance it to your liking. Please keep in mind that this project is still a work in progress, and contributions are welcome.**
 
+## Preview
+
+Here is a preview of the Website:
+
+![Car Wash Website](https://github.com/d3d11/Car-Wash/assets/50249215/258900b8-5acd-4f89-9a97-4842a6f6203c)
+
 ## Table of Contents
 
 - [Features](#features)
