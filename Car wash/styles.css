@@ -33,24 +33,66 @@ html, body {
     margin-right: 20px;
 }
 
-/* Hero Section */
-.hero {
-    position: relative;
-    color: #b7b4af;
+.header {
+    background-image: url('images/header.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 100px 0;
-    overflow: hidden; /* Ensure the image stays within the section */
+    padding: 100px 0; /* Adjust the padding as needed */
 }
 
-.hero-image {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Place the image behind the content */
-    object-fit: cover; /* Ensure the image covers the entire section */
-    opacity: 0.6; /* Adjust the opacity to your liking */
+/* Style the header content */
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the header title */
+.header-title {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the header subtitle */
+.header-subtitle {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* Style the "Join now" button */
+.join-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #0056b3;
+    text-decoration: inherit; 
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 60px 0; /* Adjust the padding for smaller screens */
+    }
+    .header-title {
+        font-size: 24px;
+    }
+    .header-subtitle {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .join-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 }
 
 /* Statistics Section */
@@ -317,17 +359,5 @@ html, body {
 
     .nav-link {
         margin-right: 10px;
-    }
-
-    .hero {
-        padding: 80px 0;
-    }
-
-    .hero h1 {
-        font-size: 28px;
-    }
-
-    .hero p {
-        font-size: 18px;
     }
 }
